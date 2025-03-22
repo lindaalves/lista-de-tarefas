@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+body.dark-mode {
+  background: #2b2b2b;
+  color: #ffffff;
+}
+
+.toggle-theme {
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+body.dark-mode .toggle-theme {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.div.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  color: #464646;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li button {
+  color: #ef4a4a;
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <div>
+          <button id="toggleTheme" class="toggle-theme">Modo Escuro</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <div class="input-container">
+          <input
+            type="text"
+            id="novaTarefa"
+            placeholder="Adicione uma tarefa"
+          />
+          <button id="adicionarTarefa">+</button>
+        </div>
+        <ul id="listaTarefas"></ul>
+      </div>
+    </main>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
